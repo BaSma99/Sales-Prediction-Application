@@ -37,7 +37,8 @@ if file is not None:
     st.pyplot(fig)
 
 
-st.write(data.describe())
+
+#st.write(data.describe())
 st.sidebar.write('Please, Enter Input Data to Predict Sales:')
 
 def user_input():
